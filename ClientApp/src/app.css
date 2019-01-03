@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DOS';
+    src: url('/fonts/Fixedsys500c.eot');
+    src: local('☺'), url('/fonts/Fixedsys500c.woff') format('woff'), url('/fonts/Fixedsys500c.ttf') format('truetype'), url('/fonts/Fixedsys500c.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #000084;
+    color: #bbb;
+}
+body, .Toastify__toast-body {
+    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+} 
+#main a:not(.btn) {
+    color: #fefe54;
+    text-decoration: none;
+}
+
+#main a:not(.btn):hover, #main a:not(.btn):focus {
+    color: #fefe54;
+    background: #aa5500;
+    outline: 0;
+}
+
+.btn-primary {
+    color: #000000;
+    background: #bbbbbb;
+}
+.btn {
+    border: 0 !important;
+    border-radius: 0;
+    -webkit-box-shadow: 10px 10px 0 #000000;
+    -moz-box-shadow: 10px 10px 0 #000000;
+    box-shadow: 10px 10px 0 #000000;
+}
+.btn:hover, .btn:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background: #555555;
+    outline: 0;
+}
+
+.table th {
+    color: #6c757d;
+}

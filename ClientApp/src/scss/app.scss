@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: 'DOS';
+  src: url('http://tilde.club/~jbfink/css/fonts/Fixedsys500c.eot');
+  src: local('☺'), url('http://tilde.club/~jbfink/css/fonts/Fixedsys500c.woff') format('woff'), url('http://tilde.club/~jbfink/css/fonts/Fixedsys500c.ttf') format('truetype'), url('http://tilde.club/~jbfink/css/fonts/Fixedsys500c.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 18px;
+  line-height: 19px;
+  color: green !important;
+  background-color: #000084;
+}
